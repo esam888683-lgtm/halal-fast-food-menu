@@ -13,11 +13,12 @@ img
 }
 body{
     
-    background-color: black;
+    background-color: red;
 }
 .parent
 {
     margin: auto;
     text-align: center;
+
 
 }
