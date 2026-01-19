@@ -1,27 +1,1440 @@
+<!-- lear -->
+<!-- HTML -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Halal 4 you fast food</title>
-</head>
-<body>
-    <div class="parent">
-        <img src="images/WhatsApp Image 2025-12-23 at 5.27.36 PM.jpeg" alt="halal logo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Halal Menu</title>
+  </head>
+  <body class="body">
+    <header>
+      <!-- <img class="logo" src="images/logo.jpg" alt="logo" />
+      <p>تاكل وانتا مطمئن</p> -->
+      <div class="numbers">
+        <p>01100540760---01201075763---01011797260---01106122500</p>
+          <img class="noborder" src="images/Untitled design (10).jpg" alt="logo">
+      </div>
+      <div class="icons">
+        <span><a  class="parentOfIcon" href="https://web.facebook.com/halal4you/?_rdc=1&_rdr#"target="_blank"
+          class="social-icon">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a></span>
+        <span><a  class="parentOfIcon" href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf"target="_blank"
+          class="social-icon">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a></span>
+      </div>
         
-        <h2 id="hy">اداره حلال فور يو ترحب بكم </h2>
-        <h2 id="update">الصفحه قيد التحديث</h2>
-    </div>
+
+          
+          
+      <h1 class="hello">مرحبا بكم في منيو حلال الالكتروني</h1>
+      
+      
+      <ul>
+        <li><button id="all-btn"class="filter-btn" data-filter="mashoy">اكلات مشويه</button></li>
+        <li><button id="breakfast-btn" class="filter-btn" data-filter="sohon_mandy">اكلات سخن ومندي</button></li>
+        <li><button id="breakfast-btn" class="filter-btn" data-filter="frid">فرايد تشيكن</button></li>
+        <li><button id="lunch-btn" class="filter-btn" data-filter="fastfood">ساندوتشات</button></li>
+        <li><button id="shakes-btn" class="filter-btn" data-filter="desert">مقبلات</button></li>
+        <li><button id="dinner-btn" class="filter-btn" data-filter="all">جميع الاصناف</button></li>
+      </ul>
+    </header>
+    <button id="scrollTopBtn" aria-label="الرجوع لأعلى">
+      ↑
+    </button>
     
+    <main>
+      <!--بدايه الفرايد-->
+      <div class="container menu-item" data-category="frid"> 
+        <img src="images/2ق بروست.jpg" width="312" height="312" alt="cake" />
+
+        <div class="box"> 
+          <div>
+            <h3>فرايد تشيكن 2ق</h3>
+            <p>120 جنيه</p>
+          </div>
+          <hr />
+          <p>
+            بروست  <br> ارز <br> بطاطس  <br>  كولسلو <br> ثوميه <br> كاتشب <br>  كايزر
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="frid"> 
+        <img src="images/3ق بروست.jpg" width="312" height="312" alt="cake" />
+
+        <div class="box"> 
+          <div>
+            <h3>فرايد تشيكن 3ق</h3>
+            <p>160 جنيه</p>
+          </div>
+          <hr />
+          <p>
+            بروست  <br> ارز <br> بطاطس  <br>  كولسلو <br> ثوميه <br> كاتشب <br>  كايزر
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="frid"> 
+        <img src="images/4ق بروست.jpg" width="312" height="312" alt="cake" />
+
+        <div class="box"> 
+          <div>
+            <h3>فرايد تشيكن 4ق</h3>
+            <p>190 جنيه</p>
+          </div>
+          <hr />
+          <p>
+            بروست  <br> ارز <br> بطاطس  <br>  كولسلو <br> ثوميه <br> كاتشب <br>  كايزر
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="frid"> 
+        <img src="images/3ق استريبس.jpg" width="312" height="312" alt="cake" />
+
+        <div class="box"> 
+          <div>
+            <h3>استريبس 3ق</h3>
+            <p>95 جنيه</p>
+          </div>
+          <hr />
+          <p>
+            استريبس  <br> ارز  <br> بطاطس  <br>   ثوميه <br> كاتشب <br>  كايزر
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="frid"> 
+        <img src="images/5ق استريبس.jpg" width="312" height="312" alt="cake" />
+
+        <div class="box"> 
+          <div>
+            <h3>استريبس 5ق</h3>
+            <p>120 جنيه</p>
+          </div>
+          <hr />
+          <p>
+            استريبس  <br> ارز  <br> بطاطس  <br>   كولسلو <br> ثوميه <br> كاتشب <br>  كايزر
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="frid"> 
+        <img src="images/8ق بروست.jpg" width="312" height="312" alt="cake" />
+
+        <div class="box"> 
+          <div>
+            <h3>فرايد تشيكن 8ق</h3>
+            <p>385 جنيه</p>
+          </div>
+          <hr />
+          <p>
+            بروست  <br> ارز  <br> بطاطس  <br>   كولسلو <br> ثوميه <br> كاتشب <br>  كايزر
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="frid"> 
+        <img src="images/12ق بروست.jpg" width="312" height="312" alt="cake" />
+
+        <div class="box"> 
+          <div>
+            <h3>فرايد تشيكن 12ق</h3>
+            <p>530 جنيه</p>
+          </div>
+          <hr />
+          <p>
+            بروست  <br> ارز  <br> بطاطس  <br>   كولسلو <br> ثوميه <br> كاتشب <br>  كايزر
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="frid"> 
+        <img src="images/16ق بروست.jpg" width="312" height="312" alt="cake" />
+
+        <div class="box"> 
+          <div>
+            <h3>فرايد تشيكن 16ق</h3>
+            <p>690 جنيه</p>
+          </div>
+          <hr />
+          <p>
+            بروست  <br> ارز  <br> بطاطس  <br>   كولسلو <br> ثوميه <br> كاتشب <br>  كايزر
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="frid"> 
+        <img src="images/21ق بروست.jpg" width="312" height="312" alt="cake" />
+
+        <div class="box"> 
+          <div>
+            <h3>فرايد تشيكن 21ق</h3>
+            <p>900 جنيه</p>
+          </div>
+          <hr />
+          <p>
+            بروست  <br> ارز  <br> بطاطس  <br>   كولسلو <br> ثوميه <br> كاتشب <br>  كايزر
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="frid"> 
+        <img src="images/12ق استريبس.jpg" width="312" height="312" alt="cake" />
+
+        <div class="box"> 
+          <div>
+            <h3>استريبس  12ق</h3>
+            <p>290 جنيه</p>
+          </div>
+          <hr />
+          <p>
+            استريبس  <br> ارز  <br> بطاطس  <br>   كولسلو <br> ثوميه <br> كاتشب <br>  كايزر
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="frid"> 
+        <img src="images/21ق استريبس.jpg" width="312" height="312" alt="cake" />
+
+        <div class="box"> 
+          <div>
+            <h3>استريبس  21ق</h3>
+            <p>500 جنيه</p>
+          </div>
+          <hr />
+          <p>
+            استريبس  <br> ارز  <br> بطاطس  <br>   كولسلو <br> ثوميه <br> كاتشب <br>  كايزر
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="frid"> 
+        <img src="images/ميكس 2ق بروست +2 ق استريبس.jpg" width="312" height="312" alt="cake" />
+
+        <div class="box"> 
+          <div>
+            <h3>ميكس بروست واستريبس  4ق</h3>
+            <p>150 جنيه</p>
+          </div>
+          <hr />
+          <p>
+            استريبس <br>بروست  <br> ارز  <br> بطاطس  <br>   كولسلو <br> ثوميه <br> كاتشب <br>  كايزر
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="frid"> 
+        <img src="images/ميكس عائلي.jpg" width="312" height="312" alt="cake" />
+
+        <div class="box"> 
+          <div>
+            <h3>ميكس بروست واستريبس  عائلي</h3>
+            <p>485 جنيه</p>
+          </div>
+          <hr />
+          <p>
+            استريبس <br>بروست  <br> ارز  <br> بطاطس  <br>   كولسلو <br> ثوميه <br> كاتشب <br>  كايزر
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="frid"> 
+        <img src="images/استريبس اطفال.jpg" width="312" height="312" alt="cake" />
+
+        <div class="box"> 
+          <div>
+            <h3>استريبس وجبه اطفال </h3>
+            <p>90 جنيه</p>
+          </div>
+          <hr />
+          <p>
+            استريبس <br> بطاطس      <br> عصير <br> كاتشب <br>  كايزر
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="frid"> 
+        <img src="images/بروست اطفال.jpg" width="312" height="312" alt="cake" />
+
+        <div class="box"> 
+          <div>
+            <h3>بروست وجبه اطفال </h3>
+            <p>90 جنيه</p>
+          </div>
+          <hr />
+          <p>
+            بروست <br> بطاطس      <br> عصير <br> كاتشب <br>  كايزر
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+      <!--نهايه الفرايد-->
+
+
+      <!--بدايه المندي والسخن-->
+
+    
+      <!--نهايه المندي والسخن-->
+
+      <!--بدايه المشوي-->
+      <div class="container menu-item" data-category="mashoy">
+        <img src="images/كفته.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>كفته كندوز</h3>
+            <p></p>
+          </div>
+          <hr />
+          <p>
+            كيلو-450ج
+            <br>
+            كيلو الا ربع-350ج
+            <br>
+            نصف كيلو-240ج
+            <br>
+            وجبه125ج
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="mashoy">
+        <img src="images/طرب.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>طرب</h3>
+            <p></p>
+          </div>
+          <hr />
+          <p>
+            كيلو-560ج
+            <br>
+            كيلو الا ربع-450ج
+            <br>
+            نصف كيلو-290ج
+            <br>
+            وجبه-150ج
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="mashoy">
+        <img src="images/حواوشي.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>حواوشي</h3>
+            <p>35 جنيه</p>
+          </div>
+          <hr />
+          <p>
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="sohon_mandy">
+        <img src="images/لحم صوص.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>لحم صوص</h3>
+            <p></p>
+          </div>
+          <hr />
+          <p>
+            كيلو-540ج
+            <br>
+            كيلو الا ربع-450ج
+            <br>
+            نصف كيلو-270ج
+            <br>
+            وجبه-150ج
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="sohon_mandy">
+        <img src="images/لحم مندي.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>لحم مندي</h3>
+            <p></p>
+          </div>
+          <hr />
+          <p>
+            كيلو-540ج
+            <br>
+            كيلو الا ربع-450ج
+            <br>
+            نصف كيلو-270ج
+            <br>
+            وجبه-150ج
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="mashoy">
+        <img src="images/استيك.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>لحم استيك</h3>
+            <p></p>
+          </div>
+          <hr />
+          <p>
+            كيلو-620ج
+            <br>
+            كيلو الا ربع-490ج
+            <br>
+            نصف كيلو-310ج
+            <br>
+            وجبه-160ج
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="sohon_mandy">
+        <img src="images/لحم محمر.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>لحم محمر</h3>
+            <p></p>
+          </div>
+          <hr />
+          <p>
+            كيلو-620ج
+            <br>
+            كيلو الا ربع-490ج
+            <br>
+            نصف كيلو-310ج
+            <br>
+            وجبه-160ج
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="sohon_mandy">
+        <img src="images/بوفتيك.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>لحم بوفتيك</h3>
+            <p></p>
+          </div>
+          <hr />
+          <p>
+            كيلو-500ج
+            <br>
+            كيلو الا ربع-380ج
+            <br>
+            نصف كيلو-260ج
+            <br>
+            وجبه-140ج
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="sohon_mandy">
+        <img src="images/لحم محمر.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>كبده محمره </h3>
+            <p></p>
+          </div>
+          <hr />
+          <p>
+            كيلو-620ج
+            <br>
+            كيلو الا ربع-490ج
+            <br>
+            نصف كيلو-310ج
+            <br>
+            وجبه-160ج
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="sohon_mandy">
+        <img src="images/فراخ مندي.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>فراخ مندي</h3>
+            <p></p>
+          </div>
+          <hr />
+          <p>
+            فرخه-300ج
+            <br>
+            فرخه الا ربع-240ج
+            <br>
+            نصف فرخه-160ج
+            <br>
+            وجبه-85ج
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="mashoy">
+        <img src="images/فراخ شيش.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>فراخ شيش</h3>
+            <p></p>
+          </div>
+          <hr />
+          <p>
+            فرخه-300ج
+            <br>
+            فرخه الا ربع-240ج
+            <br>
+            نصف فرخه-160ج
+            <br>
+            وجبه-85ج
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="sohon_mandy">
+        <img src="images/بانيه.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>بانيه </h3>
+            <p></p>
+          </div>
+          <hr />
+          <p>
+            كيلو-310ج
+            <br>
+            كيلو الا ربع-225ج
+            <br>
+            نصف كيلو-155ج
+            <br>
+            وجبه-85ج
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="mashoy">
+        <img src="images/حمام.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>حمام </h3>
+            <p></p>
+          </div>
+          <hr />
+          <p>
+            فرد-130ج
+            <br>
+            جوز -260ج
+          
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="sohon_mandy">
+        <img src="images/طاجن لحمه.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>طاجن خضار باللحمه </h3>
+            <p>175 جنيه</p>
+          </div>
+          <hr />
+          <p>
+          
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="sohon_mandy">
+        <img src="images/طاجن بصل.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>طاجن بصل باللحمه </h3>
+            <p>180 جنيه</p>
+          </div>
+          <hr />
+          <p>
+          
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="sohon_mandy">
+        <img src="images/طاجن كوارع.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>طاجن  كوارع </h3>
+            <p>200 جنيه</p>
+          </div>
+          <div>
+            <h3>طاجن  عكاوي </h3>
+            <p>225 جنيه</p>
+          </div>
+          <hr />
+          <p>
+          
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="desert">
+        <img src="images/ممبار.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>ممبار</h3>
+            <p></p>
+          </div>
+          <hr />
+          <p>
+            كيلو-200ج
+            <br>
+            كيلو الا ربع-150ج
+            <br>
+            نصف كيلو-100ج
+            <br>
+            وجبه-50ج
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="sohon_mandy">
+        <img src="images/سجق.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>سجق</h3>
+            <p></p>
+          </div>
+          <hr />
+          <p>
+            كيلو-470ج
+            <br>
+            كيلو الا ربع-375ج
+            <br>
+            نصف كيلو-240ج
+            <br>
+            وجبه-125ج
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="sohon_mandy">
+        <img src="images/زنجر.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>زنجر</h3>
+            <p>90 جنيه</p>
+          </div>
+          <hr />
+          <p>
+          
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="sohon_mandy">
+        <img src="images/ميكس بانيه وكفته.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>ميكس بانيه وكفته</h3>
+            <p>140 جنيه </p>
+          </div>
+          <hr />
+          <p>
+          
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="sohon_mandy">
+        <img src="images/ميكس فراخ وكفته.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>ميكس فراخ وكفته</h3>
+            <p>140 جنيه</p>
+          </div>
+          <hr />
+          <p>
+          
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="mashoy">
+        <img src="images/وجبه شيش طاووق.jpg" width="312" height="312" alt="cupcake" />
+
+        <div class="box">
+          <div>
+            <h3>وجبه شيش طاووق</h3>
+            <p></p>
+          </div>
+          <hr />
+          <p>
+            كيلو-380ج
+            <br>
+            كيلو الا ربع-285ج
+            <br>
+            نصف كيلو-190ج
+            <br>
+            وجبه-100ج
+
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+      <!--نهايه المشوي-->
+
+      <!--بدايه الساندوتشات-->
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/كلاسيك تشيكن.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>كلاسيك تشيكن</h3>
+            <p>105 EG</p>
+          </div>
+          <hr />
+          <p>
+            استريبس <br> مايونيز <br> خس <br> خيار مخلل <br> طماطم <br> صوص جبنه 
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/جوسي لوسي 4.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>جوسي لوسي</h3>
+            <p>120 EG</p>
+          </div>
+          <hr />
+          <p>
+            استريبس <br> مايونيز <br> خس <br> خيار مخلل <br> طماطم <br> تركي مدخن <br> صوص جبنه <br> رانش صوص
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/تشيكن ماشروم.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3> تشيكن ماشروم</h3>
+            <p>125 EG</p>
+          </div>
+          <hr />
+          <p>
+            استريبس <br> مايونيز <br> خس <br> خيار مخلل <br> طماطم <br> بيف بيكون <br> ماشروم كريمي <br> رانش صوص 
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/كاوبوي.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3> كاوبوي </h3>
+            <p>130 EG</p>
+          </div>
+          <hr />
+          <p>
+            استريبس <br> مايونيز <br> خس <br> خيار مخلل <br> طماطم <br> حلقات بصل <br> تركي مدخن <br> صوص جبنه <br> باربيكيو صوص           </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/فولكانو.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3> فولكانو </h3>
+            <p>130 EG</p>
+          </div>
+          <hr />
+          <p>
+            استريبس <br> مايونيز <br> خس <br> خيار مخلل <br> طماطم <br> بيف بيكون <br> موتزاريلا <br> صوص الف جزيره     
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/حلال شيستر.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3> حلال شيستر </h3>
+            <p>145 EG</p>
+          </div>
+          <hr />
+          <p>
+            استريبس <br> مايونيز <br> خس <br> هاليبينو <br> طماطم <br> فلفل الوان <br> دوريتوس <br> اصابع جبنه <br> بيف بيكون <br> صوص سويت شيلي 
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/حلال فاير.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3> حلال فاير </h3>
+            <p>130 EG</p>
+          </div>
+          <hr />
+          <p>
+            استريبس <br> مايونيز <br> خس <br> هاليبينو <br> طماطم <br> اصابع جبنه <br> بيف بيكون <br> صوص سويت شيلي  
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/كلاسيك استريبس فيلر.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3> كلاسيك استريبس  </h3>
+            <p>105 EG</p>
+          </div>
+          <hr />
+          <p>
+            استريبس <br> مايونيز <br> خس <br> خيار مخلل <br> طماطم <br> تركي مدخن <br> صوص جبنه   
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/زنجر استريبس.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>  زنجر استريبس  </h3>
+            <p>110 EG</p>
+          </div>
+          <hr />
+          <p>
+            استريبس <br> مايونيز <br> خس <br> هاليبينو <br> طماطم <br> بيف بيكون <br> صوص سويت شيلي 
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/فاهيتا تشيكن.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>فاهيتا تشيكن</h3>
+            <p>105 EG</p>
+          </div>
+          <hr />
+          <p>
+            صدور دجاج <br> مايونيز <br> خس <br> هاليبينو <br> طماطم <br> ماشروم <br> زيتون <br> صوص باربكيو     
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/شيش طاووق.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>شيش طاووق </h3>
+            <p>120 EG</p>
+          </div>
+          <hr />
+          <p>
+            شيش طاووق <br> مايونيز <br> خس <br> هاليبينو <br> طماطم <br> صوص باربكيو    
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/كلاسيك بيف.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>كلاسيك بيف</h3>
+            <p>130 EG</p>
+          </div>
+          <hr />
+          <p>
+            برجر <br> مايونيز <br> خس <br> خيار <br> طماطم <br> بصل <br> صوص جبنه <br> صوص بيج تيستي   
+            </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/تشارلي بوي.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>تشارلي بوي</h3>
+            <p>160 EG</p>
+          </div>
+          <hr />
+          <p>
+            برجر <br> مايونيز <br> خس <br> خيار <br> طماطم <br> بصل <br> حلقات بصل <br> بيف بيكون <br> صوص جبنه <br> صوص باربيكيو 
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/تشيزي بيف.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>تشيزي بيف</h3>
+            <p>160 EG</p>
+          </div>
+          <hr />
+          <p>
+            برجر <br> مايونيز <br> خس <br> خيار <br> طماطم <br> بصل <br> بيف بيكون <br> موتزاريلا <br> صوص جبنه     
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/كينج برجر.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>كينج برجر </h3>
+            <p>125 EG</p>
+          </div>
+          <hr />
+          <p>
+            برجر <br> مايونيز <br> خس <br> خيار <br> طماطم <br> بصل <br> بصل مكرمل <br> صوص جبنه     
+            </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/ماشروم بيف.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>ماشروم بيف</h3>
+            <p>135 EG</p>
+          </div>
+          <hr />
+          <p>
+            برجر <br> مايونيز <br> خس <br> خيار <br> طماطم <br> بصل <br> ماشروم كريمي <br> صوص الف جزيره    
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/حلال فاير برجر.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>حلال فاير برجر</h3>
+            <p>170 EG</p>
+          </div>
+          <hr />
+          <p>
+            برجر <br> مايونيز <br> خس <br> خيار <br> طماطم <br> بصل <br> بيف بيكون <br> هاليبينو استيك <br> صوص سويت شيلي 
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/ميجا برجر.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>ميجا برجر</h3>
+            <p>145 EG</p>
+          </div>
+          <hr />
+          <p>
+            برجر <br> مايونيز <br> خس <br> خيار <br> طماطم <br> بصل <br> تركي مدخن <br> سلامي <br> صوص بيج تيستي     
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/كريب استريبس.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>كريب استريبس</h3>
+            <p>100 EG</p>
+          </div>
+          <hr />
+          <p>
+            استريبس <br> موتزاريلا  <br> كاتشب  <br> مايونيز <br> فلفل اخضر  <br> زيتون    
+          </p>
+          </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/كريب زنجر.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>كريب زنجر</h3>
+            <p>135 EG</p>
+          </div>
+          <hr />
+          <p>
+            استريبس <br> موتزاريلا <br> كاتشب <br> مايونيز <br> فلفل هاليبينو <br> هوت صوص <br> فلفل اخضر <br> زيتون  
+          </p>
+          </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/كريب ميكس فراخ.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>كريب ميكس فراخ</h3>
+            <p>130 EG</p>
+          </div>
+          <hr />
+          <p>
+            استريبس  <br> شيش طاووق <br>  فاهيتا فراخ  <br>  موتزاريلا  <br> الف جزيره <br>  كاتشب  <br> مايونيز <br> فلفل اخضر  <br> زيتون   
+          </p>
+          </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/سوبر كرانشي.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>سوبر كرانشي</h3>
+            <p>130 EG</p>
+          </div>
+          <hr />
+          <p>
+            استريبس <br>  تركي مدخن  <br> صوص رانش  <br> كاتشب  <br> مايونيز <br>  موتزاريلا <br>  فلفل اخضر 
+          </p>
+          </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/كريب شيش.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>كريب شيش</h3>
+            <p>100 EG</p>
+          </div>
+          <hr />
+          <p>
+            شيش <br>  بصل  <br> فلفل اخضر  <br> زيتون  <br> باربيكيو صوص  <br> موتزاريلا   
+          </p>
+          </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/فاهيتا.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>كريب فاهيتا</h3>
+            <p>110 EG</p>
+          </div>
+          <hr />
+          <p>
+            فاهيتا فراخ <br>  بصل  <br> فلفل اخضر <br>  ماشروم <br>  زيتون  <br> باربيكيو صوص  <br> كاتشب  <br> مايونيز 
+          </p>
+          </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/كريب برجر.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>كريب برجر</h3>
+            <p>130 EG</p>
+          </div>
+          <hr />
+          <p>
+            برجر <br>  الف جزيره  <br> موتزاريلا  <br> كاتشب <br>  مايونيز  <br> زيتون     
+          </p>
+          </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="fastfood">
+        <img src="images/كريب ميكس فراخ.jpg" width="312" height="312" alt="burger" />
+
+        <div class="box">
+          <div>
+            <h3>كريب ميكس لحوم</h3>
+            <p>160 EG</p>
+          </div>
+          <hr />
+          <p>
+            برجر  <br> شريحه سلامي <br>  كفته  <br> بيج تيستي صوص <br>  كاتشب  <br> مايونيز <br>  زيتون     
+          </p>
+          </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+
+      <!--نهايه الساندوتشات-->
+
+      <!--بدايه المقبلات-->
+      <div class="container menu-item" data-category="desert">
+        <img src="images/فته.jpg" width="312" height="312" alt="tea" />
+
+        <div class="box">
+          <div>
+            <h3>مع صوص من اختيارك - فته</h3>
+            <p>85 جنيه</p>
+          </div>
+          <hr />
+          <p>
+            <span>الف جزيره , باربيكيو , رانش . بيج تيستي , شيدر , تايجر</span>
+            استريبس <br> ارز بسمتي <br> عيش محمص
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+
+      <div class="container menu-item" data-category="desert">
+        <img src="images/مقبلات.jpeg" width="312" height="312" alt="tea" />
+
+        <div class="box">
+          <div>
+            <h3>الاضافات</h3>
+            <p></p>
+          </div>
+          <hr />
+          <p>
+            <span>-	
+              باكيت بطاطس     20ج
+              <br>
+              -	بيف بيكون فرايز   85ج
+              <br>
+              -	حلال فرايز     65ج
+              <br>
+              -	اصابع جبنه موتزاريلا    15ج
+              <br>
+              -	بطاطس كاتشب مايونيز  50ج
+              <br>
+              -	تشيكن فرايز     105ج
+              <br>
+              -	ريزو    70ج
+              <br>
+              -	ريزو شيش   85ج
+              <br>
+              -	صوص جبنه    20ج
+              <br>
+              -	عيش    10ج
+              <br>
+              -	رانش   30ج
+              <br>
+              -	الف جزيره   15ج
+              <br>
+              -	بيج تيستي   15ج
+              <br>
+              -	تايجر   15ج
+              <br>
+              -	سويت شيلي    15ج
+              <br>
+              -	بيف بيكون    20ج
+              <br>
+              -	تركي مدخن   15ج
+              <br>
+              -	حلقات بصل    10ج
+              <br>
+              -	قطعه بروست   40ج
+              <br>
+              -	قطعه استريبس   20ج
+              <br>
+              -	قطعه برجر   60ج
+
+              </span>
+          </p>
+        </div>
+        <a href="https://chat.whatsapp.com/6JQb7IVSVoA8r34RHxgIsf" class="order-btn" target="_blank">
+          اطلب الآن
+        </a>
+      </div>
+      <!--نهايه المقبلات-->
+    </main>
+
+    <!-- Javascript -->
+    <noscript>You need enabled Javascript to run this app!</noscript>
+    <!-- <script src="main.js"></script> -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+
+const buttons = document.querySelectorAll(".filter-btn");
+const items = document.querySelectorAll(".menu-item");
+
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    const filter = button.dataset.filter;
+
+    items.forEach(item => {
+      if (filter === "all" || item.dataset.category === filter) {
+        item.style.display = "flex";
+      } else {
+        item.style.display = "none";
+      }
+    });
+
+  });
+});
+
+});
+const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      scrollTopBtn.classList.add("show");
+    } else {
+      scrollTopBtn.classList.remove("show");
+    }
+  });
+
+  scrollTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+    </script>
+  </body>
 
 
 
 
-
-
-
-    <script src="js/script.js"></script>
-</body>
-
+  
 </html>
+
+
