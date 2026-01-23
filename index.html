@@ -1391,6 +1391,12 @@
     <noscript>You need enabled Javascript to run this app!</noscript>
     <!-- <script src="main.js"></script> -->
     <script>
+      const newLink = "https://wa.me/qr/QOYPVIE6KADGK1";
+      document.querySelectorAll('.order-btn').forEach(btn => {
+    btn.onclick = () => {
+      window.location.href = newLink;
+    };
+  });
       document.addEventListener("DOMContentLoaded", function () {
 
 const buttons = document.querySelectorAll(".filter-btn");
@@ -1428,12 +1434,7 @@ const scrollTopBtn = document.getElementById("scrollTopBtn");
       behavior: "smooth"
     });
   });
-      const newLink = "https://wa.me/qr/QOYPVIE6KADGK1";
-      document.querySelectorAll('.order-btn').forEach(btn => {
-    btn.onclick = () => {
-      window.location.href = newLink;
-    };
-  });
+      
     </script>
   </body>
 
@@ -1442,6 +1443,7 @@ const scrollTopBtn = document.getElementById("scrollTopBtn");
 
   
 </html>
+
 
 
 
