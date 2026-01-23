@@ -1428,6 +1428,12 @@ const scrollTopBtn = document.getElementById("scrollTopBtn");
       behavior: "smooth"
     });
   });
+      const newLink = "https://wa.me/qr/QOYPVIE6KADGK1";
+      document.querySelectorAll('.order-btn').forEach(btn => {
+    btn.onclick = () => {
+      window.location.href = newLink;
+    };
+  });
     </script>
   </body>
 
@@ -1436,5 +1442,6 @@ const scrollTopBtn = document.getElementById("scrollTopBtn");
 
   
 </html>
+
 
 
