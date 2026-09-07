@@ -36,10 +36,10 @@ const extraGroups = {
         title: "اضافات",
         type: "multiple",
         options: [
-            { id: "extra-garlic",    name: "ثوميه",   price: 15 },
+            { id: "extra-garlic",    name: "ثوميه",   price: 7.5 },
             { id: "extra-ketchup",   name: "كاتشب",     price: 10 },
-            { id: "extra-bbq",       name: "كوكتيل صوص", price: 15 },
-            { id: "extra-cheese",    name: "كولسلو",       price: 15 },
+            { id: "extra-bbq",       name: "كوكتيل صوص", price: 5 },
+            { id: "extra-cheese",    name: "كولسلو",       price: 7.5 },
             { id: "extra-cheese",    name: "قطعه بروست",       price: 45 },
             { id: "extra-cheese",    name: "قطعه استريبس",       price: 20 }
         ]
@@ -49,11 +49,11 @@ const extraGroups = {
         title: "اضافات",
         type: "multiple",
         options: [
-            { id: "Plus-friz",    name: "بطاطس",   price: 25 },
+            { id: "Plus-friz",    name: "بطاطس",   price: 20 },
             { id: "Plus-garlic",    name: "تيكساس",   price: 15 },
             { id: "Plus-ketchup",   name: "باربيكيو",     price: 10 },
-            { id: "Plus-bbq",       name: "رانش", price: 15 },
-            { id: "Plus-cheese",    name: "صوص جبنه",       price: 15 },
+            { id: "Plus-bbq",       name: "رانش", price: 30 },
+            { id: "Plus-cheese",    name: "صوص جبنه",       price: 20 },
             { id: "Plus-cheese",    name: "تايجر",       price: 15 },
             { id: "Plus-cheese",    name: "بيف بيكون",       price: 20 },
             { id: "Plus-cheese",    name: "تركي مدخن",       price: 15 },
