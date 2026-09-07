@@ -342,7 +342,7 @@ const products = [
         image: "assets/products/بوفتيك.jpg",
         badge: null,
         available: true,
-        extraGroups: ["boftekMeatOptional", "mealSides"]
+        extraGroups: ["boftekMeatOptional" , "saucesPlus", "mealSides"]
     },
     {
         id: 5,
@@ -364,7 +364,7 @@ const products = [
         image: "assets/products/فراخ مندي.jpg",
         badge: "الاكثر مبيعا",
         available: true,
-        extraGroups: ["mandychiknOptional", "mealSides"]
+        extraGroups: ["mandychiknOptional", "saucesPlus","mealSides"]
     },
     {
         id: 7,
@@ -375,7 +375,7 @@ const products = [
         image: "assets/products/بانيه.jpg",
         badge: "الاكثر مبيعا",
         available: true,
-        extraGroups: ["baneachiknOptional", "mealSides"]
+        extraGroups: ["baneachiknOptional", "mealSides","saucesPlus"]
     },
     {
         id: 8,
@@ -397,7 +397,7 @@ const products = [
         image: "assets/products/طاجن بصل.jpg",
         badge: null,
         available: true,
-        extraGroups: ["mealSides"]
+        extraGroups: ["mealSides","saucesPlus"]
     },
     {
         id: 10,
@@ -441,7 +441,7 @@ const products = [
         image: "assets/products/زنجر.jpg",
         badge: "سبايسي",
         available: true,
-        extraGroups: ["mealSides"]
+        extraGroups: ["mealSides","saucesPlus"]
     },
     {
         id: 14,
@@ -452,7 +452,7 @@ const products = [
         image: "assets/products/ميكس بانيه وكفته.jpg",
         badge: null,
         available: true,
-        extraGroups: ["mealSides"]
+        extraGroups: ["mealSides","saucesPlus"]
     },
     {
         id: 15,
@@ -463,7 +463,7 @@ const products = [
         image: "assets/products/ميكس فراخ وكفته.jpg",
         badge: "الأكثر طلباً",
         available: true,
-        extraGroups: ["mealSides"]
+        extraGroups: ["mealSides","saucesPlus"]
     },
     {
         id: 16,
@@ -474,7 +474,7 @@ const products = [
         image: "assets/products/كفته.jpg",
         badge: null,
         available: true,
-        extraGroups: ["koftaOptional", "mealSides"]
+        extraGroups: ["koftaOptional", "mealSides","saucesPlus"]
     },
     {
         id: 17,
@@ -485,7 +485,7 @@ const products = [
         image: "assets/products/طرب.jpg",
         badge: null,
         available: true,
-        extraGroups: ["TarbOptional","mealSides"]
+        extraGroups: ["TarbOptional","mealSides","saucesPlus"]
     },
     {
         id: 18,
@@ -507,7 +507,7 @@ const products = [
         image: "assets/products/استيك.jpg",
         badge: null,
         available: true,
-        extraGroups: ["steackOptional"]
+        extraGroups: ["steackOptional","saucesPlus"]
     },
     {
         id: 20,
@@ -518,7 +518,7 @@ const products = [
         image: "assets/products/فراخ شيش.png",
         badge: null,
         available: true,
-        extraGroups: ["shishchiknOptional","mealSides"]
+        extraGroups: ["shishchiknOptional","mealSides","saucesPlus"]
     },
     {
         id: 21,
@@ -551,7 +551,7 @@ const products = [
         image: "assets/products/2ق بروست.jpg",
         badge: null,
         available: true,
-        extraGroups: ["sauces"]
+        extraGroups: ["sauces","saucesPlus"]
     },
     {
         id: 24,
@@ -562,7 +562,7 @@ const products = [
         image: "assets/products/3ق بروست.jpg",
         badge: null,
         available: true,
-        extraGroups: ["sauces"]
+        extraGroups: ["sauces","saucesPlus"]
     },
     {
         id: 25,
@@ -573,7 +573,7 @@ const products = [
         image: "assets/products/4ق بروست.jpg",
         badge: null,
         available: true,
-        extraGroups: ["sauces"]
+        extraGroups: ["sauces","saucesPlus"]
     },
     {
         id: 26,
@@ -584,7 +584,7 @@ const products = [
         image: "assets/products/3ق استريبس.jpg",
         badge: null,
         available: true,
-        extraGroups: ["sauces"]
+        extraGroups: ["sauces","saucesPlus"]
     },
     {
         id: 27,
@@ -595,7 +595,7 @@ const products = [
         image: "assets/products/5ق استريبس.jpg",
         badge: null,
         available: true,
-        extraGroups: ["sauces"]
+        extraGroups: ["sauces","saucesPlus"]
     },
     {
         id: 28,
@@ -606,7 +606,7 @@ const products = [
         image: "assets/products/8ق بروست.jpg",
         badge: null,
         available: true,
-        extraGroups: ["sauces"]
+        extraGroups: ["sauces","saucesPlus"]
     },
     {
         id: 29,
@@ -617,7 +617,7 @@ const products = [
         image: "assets/products/12ق بروست.jpg",
         badge: null,
         available: true,
-        extraGroups: ["sauces"]
+        extraGroups: ["sauces","saucesPlus"]
     },
     {
         id: 30,
@@ -628,7 +628,7 @@ const products = [
         image: "assets/products/16ق بروست.jpg",
         badge: null,
         available: true,
-        extraGroups: ["sauces"]
+        extraGroups: ["sauces","saucesPlus"]
     },
     {
         id: 31,
@@ -639,7 +639,7 @@ const products = [
         image: "assets/products/21ق بروست.jpg",
         badge: null,
         available: true,
-        extraGroups: ["sauces"]
+        extraGroups: ["sauces","saucesPlus"]
     },
     {
         id: 32,
@@ -650,7 +650,7 @@ const products = [
         image: "assets/products/12ق استريبس.jpg",
         badge: null,
         available: true,
-        extraGroups: ["sauces"]
+        extraGroups: ["sauces","saucesPlus"]
     },
     {
         id: 33,
@@ -661,7 +661,7 @@ const products = [
         image: "assets/products/21ق استريبس.jpg",
         badge: null,
         available: true,
-        extraGroups: ["sauces"]
+        extraGroups: ["sauces","saucesPlus"]
     },
     {
         id: 34,
@@ -672,7 +672,7 @@ const products = [
         image: "assets/products/ميكس 2ق بروست +2 ق استريبس.jpg",
         badge: null,
         available: true,
-        extraGroups: ["sauces"]
+        extraGroups: ["sauces","saucesPlus"]
     },
     {
         id: 35,
@@ -683,7 +683,7 @@ const products = [
         image: "assets/products/ميكس عائلي.jpg",
         badge: null,
         available: true,
-        extraGroups: ["sauces"]
+        extraGroups: ["sauces","saucesPlus"]
     },
     {
         id: 36,
@@ -1124,6 +1124,17 @@ const products = [
         description: "فته مع صوص من اختيارك",
         price: 85,
         image: "assets/products/فته.jpg",
+        badge: null,
+        available: true,
+        extraGroups: ["fataaOptional"]
+    },
+     {
+        id: 74,
+        category: "extras",
+        name: "باكيت بطاطس",
+        description: "باكيت بطاطس فارم فرايز",
+        price: 20,
+        image: "assets/products/بطاطس.jpg",
         badge: null,
         available: true,
         extraGroups: ["fataaOptional"]
