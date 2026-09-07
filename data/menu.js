@@ -168,7 +168,7 @@ const extraGroups = {
         type: "single",
         options: [
             { id: "mandychiknMeal", name: "وجبه ورك", price: 95-340 },
-            { id: "mandychiknMeal", name: "وجبه صدر", price: 100-340 },
+            { id: "mandychiknMealll", name: "وجبه صدر", price: 100-340 },
             { id: "mandychiknHalf", name: "نصف", price: 180-340 },
             { id: "mandychiknHalfplus", name: "فرخه الا ربع", price: 260-340 },
             { id: "mandychiknbig", name: "فرخه", price: 340-340 }
@@ -244,7 +244,7 @@ const extraGroups = {
         type: "single",
         options: [
             { id: "shishchiknMeal", name: "وجبه ورك", price: 95-340 },
-            { id: "shishchiknMeal", name: "وجبه صدر", price: 100-340 },
+            { id: "shishchiknMealllll", name: "وجبه صدر", price: 100-340 },
             { id: "shishchiknHalf", name: "نصف", price: 180-340 },
             { id: "shishchiknHalfplus", name: "فرخه الا ربع", price: 260-340 },
             { id: "shishchiknbig", name: "فرخه", price: 340-340 }
