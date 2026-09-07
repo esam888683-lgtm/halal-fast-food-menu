@@ -51,6 +51,8 @@ const extraGroups = {
         type: "multiple",
         options: [
             { id: "Plus-friz",    name: "بطاطس",   price: 20 },
+            { id: "salad-friz",    name: "سلطه خضراء",   price: 10 },
+            { id: "tehena-friz",    name: "طحينه",   price: 5 },
             { id: "Plus-garlic",    name: "تيكساس",   price: 15 },
             { id: "Plus-ketchup",   name: "باربيكيو",     price: 10 },
             { id: "Plus-bbq",       name: "رانش", price: 30 },
