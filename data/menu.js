@@ -42,7 +42,11 @@ const extraGroups = {
             { id: "extra-bbq",       name: "كوكتيل صوص", price: 5 },
             { id: "extra-cheese",    name: "كولسلو",       price: 7.5 },
             { id: "extra-cheese",    name: "قطعه بروست",       price: 45 },
-            { id: "extra-cheese",    name: "قطعه استريبس",       price: 20 }
+            { id: "extra-cheese",    name: "قطعه استريبس",       price: 20 },
+            { id: "salad-friz",    name: "سلطه خضراء",   price: 10 },
+            { id: "tehena-friz",    name: "طحينه",   price: 5 },
+            { id: "PASMATY-friz",    name: "ارز بسمتي",   price: 25 },
+            { id: "makarona-friz",    name: "مكرونه",   price: 30 }
         ]
     },
     saucesPlus: {
@@ -312,7 +316,7 @@ const products = [
         image: "assets/products/لحم صوص.jpg",
         badge: "الأكثر طلباً",
         available: true,
-        extraGroups: ["susOptional", "mealSides"]
+        extraGroups: ["susOptional", "mealSides","sauces"]
     },
     {
         id: 2,
@@ -323,7 +327,7 @@ const products = [
         image: "assets/products/لحم مندي.jpg",
         badge: null,
         available: true,
-        extraGroups: ["manyMeatOptional", "mealSides"]
+        extraGroups: ["manyMeatOptional", "mealSides","sauces"]
     },
     {
         id: 3,
@@ -334,7 +338,7 @@ const products = [
         image: "assets/products/لحم محمر.jpeg",
         badge: "الأكثر طلباً",
         available: true,
-        extraGroups: ["mohamerMeatOptional", "mealSides"]
+        extraGroups: ["mohamerMeatOptional", "mealSides","sauces"]
     },
     {
         id: 4,
@@ -345,7 +349,7 @@ const products = [
         image: "assets/products/بوفتيك.jpg",
         badge: null,
         available: true,
-        extraGroups: ["boftekMeatOptional" , "saucesPlus", "mealSides"]
+        extraGroups: ["boftekMeatOptional" , "saucesPlus", "mealSides","sauces"]
     },
     {
         id: 5,
@@ -356,7 +360,7 @@ const products = [
         image: "assets/products/كبده.jpg",
         badge: null,
         available: true,
-        extraGroups: ["kebdaMeatOptional", "mealSides"]
+        extraGroups: ["kebdaMeatOptional", "mealSides","sauces"]
     },
     {
         id: 6,
@@ -367,7 +371,7 @@ const products = [
         image: "assets/products/فراخ مندي.jpg",
         badge: "الاكثر مبيعا",
         available: true,
-        extraGroups: ["mandychiknOptional", "saucesPlus","mealSides"]
+        extraGroups: ["mandychiknOptional", "saucesPlus","mealSides","sauces"]
     },
     {
         id: 7,
@@ -378,7 +382,7 @@ const products = [
         image: "assets/products/بانيه.jpg",
         badge: "الاكثر مبيعا",
         available: true,
-        extraGroups: ["baneachiknOptional", "mealSides","saucesPlus"]
+        extraGroups: ["baneachiknOptional", "mealSides","saucesPlus","sauces"]
     },
     {
         id: 8,
@@ -389,7 +393,7 @@ const products = [
         image: "assets/products/طاجن لحمه.jpg",
         badge: null,
         available: true,
-        extraGroups: ["mealSides"]
+        extraGroups: ["mealSides","sauces"]
     },
     {
         id: 9,
@@ -400,7 +404,7 @@ const products = [
         image: "assets/products/طاجن بصل.jpg",
         badge: null,
         available: true,
-        extraGroups: ["mealSides","saucesPlus"]
+        extraGroups: ["mealSides","saucesPlus","sauces"]
     },
     {
         id: 10,
@@ -411,7 +415,7 @@ const products = [
         image: "assets/products/طاجن كوارع.jpg",
         badge: null,
         available: true,
-        extraGroups: ["mealSides"]
+        extraGroups: ["mealSides","sauces"]
     },
     {
         id: 11,
@@ -422,7 +426,7 @@ const products = [
         image: "assets/products/طاجن كوارع.jpg",
         badge: null,
         available: true,
-        extraGroups: ["mealSides"]
+        extraGroups: ["mealSides","sauces"]
     },
     {
         id: 12,
@@ -433,7 +437,7 @@ const products = [
         image: "assets/products/سجق.jpg",
         badge: null,
         available: true,
-        extraGroups: ["sogokOptional", "mealSides"]
+        extraGroups: ["sogokOptional", "mealSides","sauces"]
     },
     {
         id: 13,
@@ -444,7 +448,7 @@ const products = [
         image: "assets/products/زنجر.jpg",
         badge: "سبايسي",
         available: true,
-        extraGroups: ["mealSides","saucesPlus"]
+        extraGroups: ["mealSides","saucesPlus","sauces"]
     },
     {
         id: 14,
@@ -455,7 +459,7 @@ const products = [
         image: "assets/products/ميكس بانيه وكفته.jpg",
         badge: null,
         available: true,
-        extraGroups: ["mealSides","saucesPlus"]
+        extraGroups: ["mealSides","saucesPlus","sauces"]
     },
     {
         id: 15,
@@ -466,7 +470,7 @@ const products = [
         image: "assets/products/ميكس فراخ وكفته.jpg",
         badge: "الأكثر طلباً",
         available: true,
-        extraGroups: ["mealSides","saucesPlus"]
+        extraGroups: ["mealSides","saucesPlus","sauces"]
     },
     {
         id: 16,
@@ -477,7 +481,7 @@ const products = [
         image: "assets/products/كفته.jpg",
         badge: null,
         available: true,
-        extraGroups: ["koftaOptional", "mealSides","saucesPlus"]
+        extraGroups: ["koftaOptional", "mealSides","saucesPlus","sauces"]
     },
     {
         id: 17,
@@ -488,7 +492,7 @@ const products = [
         image: "assets/products/طرب.jpg",
         badge: null,
         available: true,
-        extraGroups: ["TarbOptional","mealSides","saucesPlus"]
+        extraGroups: ["TarbOptional","mealSides","saucesPlus","sauces"]
     },
     {
         id: 18,
@@ -499,7 +503,7 @@ const products = [
         image: "assets/products/حواوشي.png",
         badge: null,
         available: true,
-        extraGroups: ["hawawshyOptional"]
+        extraGroups: ["hawawshyOptional","sauces"]
     },
     {
         id: 19,
@@ -510,7 +514,7 @@ const products = [
         image: "assets/products/استيك.jpg",
         badge: null,
         available: true,
-        extraGroups: ["steackOptional","saucesPlus"]
+        extraGroups: ["steackOptional","saucesPlus","sauces"]
     },
     {
         id: 20,
@@ -521,7 +525,7 @@ const products = [
         image: "assets/products/فراخ شيش.png",
         badge: null,
         available: true,
-        extraGroups: ["shishchiknOptional","mealSides","saucesPlus"]
+        extraGroups: ["shishchiknOptional","mealSides","saucesPlus","sauces"]
     },
     {
         id: 21,
@@ -532,7 +536,7 @@ const products = [
         image: "assets/products/حمام بلدي.png",
         badge: null,
         available: true,
-        extraGroups: ["hamamOptional","mealSides"]
+        extraGroups: ["hamamOptional","mealSides","sauces"]
     },
     {
         id: 22,
@@ -543,7 +547,7 @@ const products = [
         image: "assets/products/وجبه شيش طاووق.jpg",
         badge: null,
         available: true,
-        extraGroups: ["shistaaOptional","mealSides"]
+        extraGroups: ["shistaaOptional","mealSides","sauces"]
     },
     {
         id: 23,
