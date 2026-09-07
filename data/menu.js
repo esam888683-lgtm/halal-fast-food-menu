@@ -45,7 +45,7 @@ const extraGroups = {
             { id: "extra-cheese",    name: "قطعه استريبس",       price: 20 },
             { id: "salad-friz",    name: "سلطه خضراء",   price: 10 },
             { id: "tehena-friz",    name: "طحينه",   price: 5 },
-            { id: "PASMATY-friz",    name: "ارز بسمتي",   price: 25 },
+            { id: "PASMATY-friz",    name: "ارز بسمتي",   price: 30 },
             { id: "makarona-friz",    name: "مكرونه",   price: 30 }
         ]
     },
@@ -243,11 +243,11 @@ const extraGroups = {
         title: "اختار بين",
         type: "single",
         options: [
-            { id: "shishchiknMeal", name: "وجبه ورك", price: 95-100 },
-            { id: "shishchiknMeal", name: "وجبه صدر", price: 100-100 },
-            { id: "shishchiknHalf", name: "نصف", price: 180-100 },
-            { id: "shishchiknHalfplus", name: "فرخه الا ربع", price: 260-100 },
-            { id: "shishchiknbig", name: "فرخه", price: 340-100 }
+            { id: "shishchiknMeal", name: "وجبه ورك", price: 95-340 },
+            { id: "shishchiknMeal", name: "وجبه صدر", price: 100-340 },
+            { id: "shishchiknHalf", name: "نصف", price: 180-340 },
+            { id: "shishchiknHalfplus", name: "فرخه الا ربع", price: 260-340 },
+            { id: "shishchiknbig", name: "فرخه", price: 340-340 }
         ]
     },
    hamamOptional: {
@@ -521,7 +521,7 @@ const products = [
         category: "mshwyat",
         name: "فراخ شيش",
         description: "فراخ مشويه",
-        price: 100,
+        price: 340,
         image: "assets/products/فراخ شيش.png",
         badge: null,
         available: true,
