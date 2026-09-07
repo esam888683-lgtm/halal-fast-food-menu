@@ -14,14 +14,15 @@
 // icon:  a single emoji shown next to the category name
 // ------------------------------------------------------------
 const categories = [
-     { id: "skhn_wmndy", name: "سخن ومندي",       icon: "🍗", order: 1 },
-    { id: "mshwyat",    name: "مشويات",   icon: "🥪", order: 2 },
-    { id: "frayd_tshykn", name: "فرايد تشيكن",      icon: "🍢", order: 3 },
-    { id: "sandwtshat",   name: "ساندوتشات",       icon: "🍛", order: 4 },
-    { id: "crepe",         name: "كريبات",        icon: "🌯", order: 5 },
-    { id: "sory",        name: "سوري",     icon: "🥤", order: 6 },
-    { id: "extras",        name: "مقبلات",      icon: "🍟", order: 7 },
-    { id: "nsf_tjhyz",        name: "نصف تجهيز",      icon: "🍟", order: 8 }
+     { id: "sals", name: "عروض",       icon: "🍗", order: 1 },
+     { id: "skhn_wmndy", name: "سخن ومندي",       icon: "🍗", order: 2 },
+    { id: "mshwyat",    name: "مشويات",   icon: "🥪", order: 3 },
+    { id: "frayd_tshykn", name: "فرايد تشيكن",      icon: "🍢", order: 4 },
+    { id: "sandwtshat",   name: "ساندوتشات",       icon: "🍛", order: 5 },
+    { id: "crepe",         name: "كريبات",        icon: "🌯", order: 6 },
+    { id: "sory",        name: "سوري",     icon: "🥤", order: 7 },
+    { id: "extras",        name: "مقبلات",      icon: "🍟", order: 8 },
+    { id: "nsf_tjhyz",        name: "نصف تجهيز",      icon: "🍟", order: 9 }
 ];
 
 // ------------------------------------------------------------
@@ -1137,7 +1138,7 @@ const products = [
         image: "assets/products/بطاطس.jpg",
         badge: null,
         available: true,
-        extraGroups: ["fataaOptional"]
+        extraGroups: []
     },
 
 
