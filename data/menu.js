@@ -307,6 +307,16 @@ const extraGroups = {
 // extraGroups: array of extraGroups keys above (optional)
 // ------------------------------------------------------------
 const products = [
+     {     id: 2001,
+        category: "sals",
+        name: "عرض لحم صوص",
+        description: "لحم صوص",
+        price: 130,
+        image: "assets/products/لحم صوص عرض.jpg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["susOptional", "mealSides","sauces"]
+    },
     {
         id: 1,
         category: "skhn_wmndy",
