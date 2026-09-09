@@ -54,7 +54,7 @@ const extraGroups = {
         title: "اضافات",
         type: "multiple",
         options: [
-            { id: "Plus-friz",    name: "بطاطس",   price: 20 },
+            { id: "Plus-friz",    name: "بطاطس",   price: 25 },
             { id: "salad-friz",    name: "سلطه خضراء",   price: 10 },
             { id: "tehena-friz",    name: "طحينه",   price: 5 },
             { id: "Plus-garlic",    name: "تيكساس",   price: 15 },
