@@ -314,7 +314,7 @@ const products = [
         price: 130,
         image: "assets/products/لحم صوص عرض.jpg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["susOptional", "mealSides","sauces"]
     },
     {
