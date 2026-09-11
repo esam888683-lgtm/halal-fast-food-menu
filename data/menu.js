@@ -14,7 +14,7 @@
 // icon:  a single emoji shown next to the category name
 // ------------------------------------------------------------
 const categories = [
-     { id: "sals", name: "عروض",       icon: "🍗", order: 1 },
+     { id: "sals", name: "عروض نار",       icon: "🍗", order: 1 },
      { id: "skhn_wmndy", name: "سخن ومندي",       icon: "🍗", order: 2 },
     { id: "mshwyat",    name: "مشويات",   icon: "🥪", order: 3 },
     { id: "frayd_tshykn", name: "فرايد تشيكن",      icon: "🍢", order: 4 },
