@@ -577,7 +577,7 @@ const products = [
         description: "بروست ارز بطاطس  كولسلو  ثوميه  كاتشب  كايزر ",
         price: 160,
         image: "assets/products/3ق بروست.jpg",
-        badge: null,
+        badge: "الاكثر طلبا",
         available: true,
         extraGroups: ["sauces","saucesPlus"]
     },
