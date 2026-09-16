@@ -307,6 +307,16 @@ const extraGroups = {
 // extraGroups: array of extraGroups keys above (optional)
 // ------------------------------------------------------------
 const products = [
+     {    id: 2002,
+        category: "sals",
+        name: "عرض بوفتيك",
+        description: "لحم بوفتيك",
+        price: 125,
+        image: "assets/products/لحم بوفتيك عرض.jpg",
+        badge: "خصم خاص ",
+        available: false,
+        extraGroups: ["susOptional", "mealSides","sauces"]
+    },
      {     id: 2001,
         category: "sals",
         name: "عرض لحم صوص",
