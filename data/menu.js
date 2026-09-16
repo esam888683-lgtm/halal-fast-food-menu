@@ -315,7 +315,7 @@ const products = [
         image: "assets/products/عرض ميكس وراك.jpg",
         badge: "خصم خاص ",
         available: true,
-        extraGroups: ["susOptional", "mealSides","sauces"]
+        extraGroups: ["mealSides","sauces"]
     },
      {    id: 2002,
         category: "sals",
@@ -325,7 +325,7 @@ const products = [
         image: "assets/products/لحم بوفتيك عرض.jpg",
         badge: "خصم خاص ",
         available: true,
-        extraGroups: ["susOptional", "mealSides","sauces"]
+        extraGroups: ["mealSides","sauces"]
     },
      {     id: 2001,
         category: "sals",
