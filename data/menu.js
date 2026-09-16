@@ -314,7 +314,7 @@ const products = [
         price: 125,
         image: "assets/products/لحم بوفتيك عرض.jpg",
         badge: "خصم خاص ",
-        available: false,
+        available: true,
         extraGroups: ["susOptional", "mealSides","sauces"]
     },
      {     id: 2001,
