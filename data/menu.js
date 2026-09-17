@@ -307,6 +307,26 @@ const extraGroups = {
 // extraGroups: array of extraGroups keys above (optional)
 // ------------------------------------------------------------
 const products = [
+      {    id: 2009,
+        category: "sals",
+        name: "عرض سوري كفته",
+        description: "مخلل وثوميه وساندوتش سوري كفته",
+        price: 60,
+        image: "assets/products/عرض سوري كفته.jpg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["mealSides","sauces"]
+    },
+     {    id: 2008,
+        category: "sals",
+        name: "عرض سوري استريبس",
+        description: "مخلل وثوميه وساندوتش سوري استريبس",
+        price: 60,
+        image: "assets/products/عرض سوري استريبس.jpg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["mealSides","sauces"]
+    },
      {    id: 2007,
         category: "sals",
         name: "عرض ورك مندي مع بطاطس",
