@@ -307,6 +307,37 @@ const extraGroups = {
 // extraGroups: array of extraGroups keys above (optional)
 // ------------------------------------------------------------
 const products = [
+     {    id: 2007,
+        category: "sals",
+        name: "عرض ورك مندي مع بطاطس",
+        description: "عرض ورك مندي مع بطاطس",
+        price: 100,
+        image: "assets/products/عرض مندي وراك.jpg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["mealSides","sauces"]
+    },
+     {    id: 2006,
+        category: "sals",
+        name: "عرض ساندوتش فيلر استريبس",
+        description: "عرض فيلر استريبس كومبو مع بطاطس وبيبسي",
+        price: 100,
+        image: "assets/products/عرض فيلر استريبس.jpg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["mealSides","sauces"]
+    },
+     {    id: 2005,
+        category: "sals",
+        name: "عرض فته مع بطاطس",
+        description: "فته مع بطاطس",
+        price: 80,
+        image: "assets/products/فته مع بطاطس.jpg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["mealSides","sauces"]
+    },
+
      {    id: 2003,
         category: "sals",
         name: "عرض ميكس وراك مندي او شيش",
