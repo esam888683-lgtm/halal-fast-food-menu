@@ -307,6 +307,16 @@ const extraGroups = {
 // extraGroups: array of extraGroups keys above (optional)
 // ------------------------------------------------------------
 const products = [
+      {    id: 2010,
+        category: "sals",
+        name: "عرض فرايد 3ق",
+        description: "عرض فرايد تشيكن 3ق مع بطاطس وسلطات",
+        price: 130,
+        image: "assets/products/عرض فرايد.jpeg",
+        badge: "خصم خاص ",
+        available: false,
+        extraGroups: ["mealSides","sauces"]
+    },
       {    id: 2009,
         category: "sals",
         name: "عرض سوري كفته",
@@ -354,7 +364,7 @@ const products = [
         price: 80,
         image: "assets/products/فته مع بطاطس.jpg",
         badge: "خصم خاص ",
-        available: false,
+        available: true,
         extraGroups: ["mealSides","sauces"]
     },
 
