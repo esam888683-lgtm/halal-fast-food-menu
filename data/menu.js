@@ -314,7 +314,7 @@ const products = [
         price: 60,
         image: "assets/products/عرض سوري كفته.jpg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["mealSides","sauces"]
     },
      {    id: 2008,
@@ -324,7 +324,7 @@ const products = [
         price: 60,
         image: "assets/products/عرض سوري استريبس.jpg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["mealSides","sauces"]
     },
      {    id: 2007,
@@ -334,7 +334,7 @@ const products = [
         price: 100,
         image: "assets/products/عرض مندي وراك.jpg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["mealSides","sauces"]
     },
      {    id: 2006,
@@ -344,7 +344,7 @@ const products = [
         price: 100,
         image: "assets/products/عرض فيلر استريبس.jpg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["mealSides","sauces"]
     },
      {    id: 2005,
@@ -354,7 +354,7 @@ const products = [
         price: 80,
         image: "assets/products/فته مع بطاطس.jpg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["mealSides","sauces"]
     },
 
