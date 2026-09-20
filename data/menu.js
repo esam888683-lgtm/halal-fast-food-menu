@@ -314,7 +314,7 @@ const products = [
         price: 130,
         image: "assets/products/عرض فرايد.jpeg",
         badge: "خصم خاص ",
-        available: false,
+        available: true,
         extraGroups: ["mealSides","sauces"]
     },
       {    id: 2009,
