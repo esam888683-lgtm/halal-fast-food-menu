@@ -307,14 +307,44 @@ const extraGroups = {
 // extraGroups: array of extraGroups keys above (optional)
 // ------------------------------------------------------------
 const products = [
-      {    id: 2010,
+     {  id: 2013,
+        category: "sals",
+        name: "عرض كباب وريش",
+        description: "كباب وريش مع طرب وممبار",
+        price: 250,
+        image: "assets/products/عرض كباب وريش.jpeg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["mealSides","sauces"]
+    },
+     {  id: 2012,
+        category: "sals",
+        name: "عرض ربع فرخه وربع كفته",
+        description: "عرض ربع فرخه وربع كفته",
+        price: 180,
+        image: "assets/products/عرض ربع وربع.jpeg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["mealSides","sauces"]
+    },
+     {  id: 2011,
+        category: "sals",
+        name: "عرض نصف فرخه ونصف كفته",
+        description: "عرض نصف فرخه ونصف كفته",
+        price: 320,
+        image: "assets/products/عرض نصف ونصف.jpeg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["mealSides","sauces"]
+    },
+      {  id: 2010,
         category: "sals",
         name: "عرض فرايد 3ق",
         description: "عرض فرايد تشيكن 3ق مع بطاطس وسلطات",
         price: 130,
         image: "assets/products/عرض فرايد.jpeg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["mealSides","sauces"]
     },
       {    id: 2009,
@@ -364,7 +394,7 @@ const products = [
         price: 80,
         image: "assets/products/فته مع بطاطس.jpg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["mealSides","sauces"]
     },
 
