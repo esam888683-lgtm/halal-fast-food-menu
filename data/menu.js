@@ -307,6 +307,48 @@ const extraGroups = {
 // extraGroups: array of extraGroups keys above (optional)
 // ------------------------------------------------------------
 const products = [
+     {    id: 2014,
+        category: "sals",
+        name: "عرض كريب استريبس",
+        description: "كريب استريبس كلاسيك مع بطاطس وبيبسي ",
+        price: 100,
+        image: "assets/products/كريب استريبس عرض.jpeg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["mealSides","sauces"]
+    },
+     
+       {    id: 2005,
+        category: "sals",
+        name: "عرض فته مع بطاطس",
+        description: "فته مع بطاطس",
+        price: 80,
+        image: "assets/products/فته مع بطاطس.jpg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["mealSides","sauces"]
+    },
+     
+         {  id: 2010,
+        category: "sals",
+        name: "عرض فرايد 3ق",
+        description: "عرض فرايد تشيكن 3ق مع بطاطس وسلطات",
+        price: 130,
+        image: "assets/products/عرض فرايد.jpeg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["mealSides","sauces"]
+    },
+       {    id: 2007,
+        category: "sals",
+        name: "عرض ورك مندي مع بطاطس",
+        description: "عرض ورك مندي او شيش مع بطاطس",
+        price: 100,
+        image: "assets/products/عرض مندي وراك.jpg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["mealSides","sauces"]
+    },
      {  id: 2013,
         category: "sals",
         name: "عرض كباب وريش",
@@ -314,7 +356,7 @@ const products = [
         price: 250,
         image: "assets/products/عرض كباب وريش.jpeg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["mealSides","sauces"]
     },
      {  id: 2012,
@@ -324,7 +366,7 @@ const products = [
         price: 180,
         image: "assets/products/عرض ربع وربع.jpeg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["mealSides","sauces"]
     },
      {  id: 2011,
@@ -334,19 +376,10 @@ const products = [
         price: 320,
         image: "assets/products/عرض نصف ونصف.jpeg",
         badge: "خصم خاص ",
-        available: true,
-        extraGroups: ["mealSides","sauces"]
-    },
-      {  id: 2010,
-        category: "sals",
-        name: "عرض فرايد 3ق",
-        description: "عرض فرايد تشيكن 3ق مع بطاطس وسلطات",
-        price: 130,
-        image: "assets/products/عرض فرايد.jpeg",
-        badge: "خصم خاص ",
         available: false,
         extraGroups: ["mealSides","sauces"]
     },
+  
       {    id: 2009,
         category: "sals",
         name: "عرض سوري كفته",
@@ -367,16 +400,7 @@ const products = [
         available: false,
         extraGroups: ["mealSides","sauces"]
     },
-     {    id: 2007,
-        category: "sals",
-        name: "عرض ورك مندي مع بطاطس",
-        description: "عرض ورك مندي مع بطاطس",
-        price: 100,
-        image: "assets/products/عرض مندي وراك.jpg",
-        badge: "خصم خاص ",
-        available: false,
-        extraGroups: ["mealSides","sauces"]
-    },
+   
      {    id: 2006,
         category: "sals",
         name: "عرض ساندوتش فيلر استريبس",
@@ -387,16 +411,7 @@ const products = [
         available: false,
         extraGroups: ["mealSides","sauces"]
     },
-     {    id: 2005,
-        category: "sals",
-        name: "عرض فته مع بطاطس",
-        description: "فته مع بطاطس",
-        price: 80,
-        image: "assets/products/فته مع بطاطس.jpg",
-        badge: "خصم خاص ",
-        available: false,
-        extraGroups: ["mealSides","sauces"]
-    },
+   
 
      {    id: 2003,
         category: "sals",
