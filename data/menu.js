@@ -310,7 +310,7 @@ const products = [
      {    id: 2014,
         category: "sals",
         name: "عرض كريب استريبس",
-        description: "كريب استريبس كلاسيك مع بطاطس وبيبسي ",
+        description: "كريب استريبس كلاسيك وبيبسي ",
         price: 100,
         image: "assets/products/كريب استريبس عرض.jpeg",
         badge: "خصم خاص ",
