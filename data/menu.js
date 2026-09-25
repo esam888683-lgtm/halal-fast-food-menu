@@ -1066,7 +1066,7 @@ const products = [
         description: "استريبس  موتزاريلا  كاتشب  مايونيز  فلفل اخضر  زيتون ",
         price: 100,
         image: "assets/products/كريب استريبس.jpg",
-        badge: null,
+        badge: "الاكثر مبيعا",
         available: true,
         extraGroups: ["saucesPlus"]
     },
