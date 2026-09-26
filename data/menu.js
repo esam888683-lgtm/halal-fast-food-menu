@@ -307,6 +307,16 @@ const extraGroups = {
 // extraGroups: array of extraGroups keys above (optional)
 // ------------------------------------------------------------
 const products = [
+     {    id: 2002,
+        category: "sals",
+        name: "عرض بوفتيك",
+        description: "لحم بوفتيك",
+        price: 125,
+        image: "assets/products/لحم بوفتيك عرض.jpg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["mealSides","sauces"]
+    },
      {    id: 2014,
         category: "sals",
         name: "عرض كريب استريبس",
@@ -314,7 +324,7 @@ const products = [
         price: 100,
         image: "assets/products/كريب استريبس عرض.jpeg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
      
@@ -325,7 +335,7 @@ const products = [
         price: 80,
         image: "assets/products/فته مع بطاطس.jpg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
      
@@ -336,7 +346,7 @@ const products = [
         price: 130,
         image: "assets/products/عرض فرايد.jpeg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
        {    id: 2007,
@@ -346,7 +356,7 @@ const products = [
         price: 100,
         image: "assets/products/عرض مندي وراك.jpg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["mealSides","sauces"]
     },
      {  id: 2013,
@@ -423,16 +433,7 @@ const products = [
         available: false,
         extraGroups: ["mealSides","sauces"]
     },
-     {    id: 2002,
-        category: "sals",
-        name: "عرض بوفتيك",
-        description: "لحم بوفتيك",
-        price: 125,
-        image: "assets/products/لحم بوفتيك عرض.jpg",
-        badge: "خصم خاص ",
-        available: true,
-        extraGroups: ["mealSides","sauces"]
-    },
+     
      {     id: 2001,
         category: "sals",
         name: "عرض لحم صوص",
