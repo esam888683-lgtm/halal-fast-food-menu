@@ -307,6 +307,30 @@ const extraGroups = {
 // extraGroups: array of extraGroups keys above (optional)
 // ------------------------------------------------------------
 const products = [
+
+     {    id: 20051,
+        category: "sals",
+        name: "عرض 2 حواوشي موتزاريلا وعادي",
+        description: "1 حواوشي عادي مع 1 حواوشي موتزاريلا",
+        price: 100,
+        image: "assets/products/عرض حواوشي.jpeg",
+        badge: "خصم خاص",
+        available: true,
+        extraGroups: ["sauces"]
+    },
+     {    id: 20052,
+        category: "sals",
+        name: "عرض الكلاسيك برجر",
+        description: "ساندوتش كلاسيك برجر مع بطاطس",
+        price: 150,
+        image: "assets/products/عرض كلاسيك برجر.jpeg",
+        badge: "خصم خاص",
+        available: true,
+        extraGroups: ["sauces"]
+    },
+
+
+     
         {    id: 20050,
         category: "sals",
         name: "عرض السمان",
