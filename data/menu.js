@@ -322,7 +322,7 @@ const products = [
         category: "sals",
         name: "عرض الكلاسيك برجر",
         description: "ساندوتش كلاسيك برجر مع بطاطس",
-        price: 150,
+        price: 100,
         image: "assets/products/عرض كلاسيك برجر.jpeg",
         badge: "خصم خاص",
         available: true,
