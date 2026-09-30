@@ -313,7 +313,7 @@ const products = [
         name: "عرض ورك بط مع محشي",
         description: "ورك بط مع محشي",
         price: 100,
-        image: "assets/products/",
+        image: "assets/products/عرض ورك بط.jpg",
         badge: "جديد",
         available: true,
         extraGroups: ["sauces"]
