@@ -308,6 +308,16 @@ const extraGroups = {
 // ------------------------------------------------------------
 const products = [
 
+     {    id: 20053,
+        category: "sals",
+        name: "عرض ورك بط مع محشي",
+        description: "ورك بط مع محشي",
+        price: 100,
+        image: "assets/products/",
+        badge: "جديد",
+        available: true,
+        extraGroups: ["sauces"]
+    },
      {    id: 20051,
         category: "sals",
         name: "عرض 2 حواوشي موتزاريلا وعادي",
