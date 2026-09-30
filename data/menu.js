@@ -325,7 +325,7 @@ const products = [
         price: 100,
         image: "assets/products/عرض حواوشي.jpeg",
         badge: "خصم خاص",
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
      {    id: 20052,
@@ -335,7 +335,7 @@ const products = [
         price: 100,
         image: "assets/products/عرض كلاسيك برجر.jpeg",
         badge: "خصم خاص",
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
 
