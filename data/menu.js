@@ -348,7 +348,7 @@ const products = [
         price: 150,
         image: "assets/products/سمان محشي بالارز.png",
         badge: "جديد ",
-        available: true,
+        available: false,
         extraGroups: ["mealSides","sauces"]
     },
 
