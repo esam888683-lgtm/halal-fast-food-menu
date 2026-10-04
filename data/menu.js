@@ -311,7 +311,7 @@ const products = [
      {    id: 20053,
         category: "sals",
         name: "عرض ورك بط مع محشي",
-        description: "ورك بط مع محشي",
+        description: "اليوم من الساعه 4 وحتي نفاذ الكميه",
         price: 100,
         image: "assets/products/عرض ورك بط.jpg",
         badge: "جديد",
@@ -344,11 +344,11 @@ const products = [
         {    id: 20050,
         category: "sals",
         name: "عرض السمان",
-        description: "سمان محشي بالارز ",
+        description: "اليوم من الساعه 4 وحتي نفاذ الكميه",
         price: 150,
         image: "assets/products/سمان محشي بالارز.png",
         badge: "جديد ",
-        available: false,
+        available: true,
         extraGroups: ["mealSides","sauces"]
     },
 
