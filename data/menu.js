@@ -310,7 +310,7 @@ const products = [
 
      {    id: 20053,
         category: "sals",
-        name: "عرض ورك بط ",
+        name: "عرض ورك بط",
         description: "اليوم من الساعه 4 وحتي نفاذ الكميه",
         price: 100,
         image: "assets/products/عرض ورك بط.jpg",
