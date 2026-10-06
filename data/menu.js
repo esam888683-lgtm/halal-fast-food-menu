@@ -307,6 +307,16 @@ const extraGroups = {
 // extraGroups: array of extraGroups keys above (optional)
 // ------------------------------------------------------------
 const products = [
+        {    id: 20050,
+        category: "sals",
+        name: "عرض السمان",
+        description: "اليوم من الساعه 4 وحتي نفاذ الكميه",
+        price: 150,
+        image: "assets/products/سمان محشي بالارز.png",
+        badge: "جديد ",
+        available: true,
+        extraGroups: ["mealSides","sauces"]
+    },
 
      {    id: 20053,
         category: "sals",
@@ -325,7 +335,7 @@ const products = [
         price: 100,
         image: "assets/products/عرض حواوشي.jpeg",
         badge: "خصم خاص",
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
      {    id: 20052,
@@ -341,16 +351,6 @@ const products = [
 
 
      
-        {    id: 20050,
-        category: "sals",
-        name: "عرض السمان",
-        description: "اليوم من الساعه 4 وحتي نفاذ الكميه",
-        price: 150,
-        image: "assets/products/سمان محشي بالارز.png",
-        badge: "جديد ",
-        available: false,
-        extraGroups: ["mealSides","sauces"]
-    },
 
      
      {    id: 2002,
