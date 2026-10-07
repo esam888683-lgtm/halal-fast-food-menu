@@ -307,6 +307,26 @@ const extraGroups = {
 // extraGroups: array of extraGroups keys above (optional)
 // ------------------------------------------------------------
 const products = [
+     {    id: 200045,
+        category: "sals",
+        name: "عرض 2ق فرايد تشيكن",
+        description: "2ق فرايد وبطاطس وارز وسلطات",
+        price: 100,
+        image: "assets/products/عرض قطعتين فرايد.jpg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["sauces"]
+    },
+     {    id: 2014,
+        category: "sals",
+        name: "عرض كريب استريبس",
+        description: "كريب استريبس كلاسيك وبيبسي ",
+        price: 100,
+        image: "assets/products/كريب استريبس عرض.jpeg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["sauces"]
+    },
         {    id: 20050,
         category: "sals",
         name: "عرض السمان",
@@ -362,16 +382,6 @@ const products = [
         badge: "خصم خاص ",
         available: false,
         extraGroups: ["mealSides","sauces"]
-    },
-     {    id: 2014,
-        category: "sals",
-        name: "عرض كريب استريبس",
-        description: "كريب استريبس كلاسيك وبيبسي ",
-        price: 100,
-        image: "assets/products/كريب استريبس عرض.jpeg",
-        badge: "خصم خاص ",
-        available: false,
-        extraGroups: ["sauces"]
     },
      
        {    id: 2005,
