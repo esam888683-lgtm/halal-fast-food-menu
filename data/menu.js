@@ -314,7 +314,7 @@ const products = [
         price: 100,
         image: "assets/products/عرض قطعتين فرايد.jpg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
      {    id: 2014,
@@ -324,7 +324,7 @@ const products = [
         price: 100,
         image: "assets/products/كريب استريبس عرض.jpeg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
         {    id: 20050,
