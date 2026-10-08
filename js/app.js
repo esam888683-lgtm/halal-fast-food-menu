@@ -48,7 +48,7 @@ const restaurantConfig = {
         { id: "big", name: "الجامع الكبير", fee: 15 },
         { id: "morad", name: "مراد", fee: 17 },
         { id: "arbain", name: "الاربعين", fee: 20 },
-        { id: "amea", name: "العاميه", fee: 15 },
+        { id: "amea", name: "العاميه", fee: 17 },
         { id: "saif", name: "سيف الدين", fee: 27 },
         { id: "shararara", name: "شراره", fee: 17 },
         { id: "dairy", name: "الدائري", fee: 25 },
