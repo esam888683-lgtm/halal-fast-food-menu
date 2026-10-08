@@ -307,6 +307,16 @@ const extraGroups = {
 // extraGroups: array of extraGroups keys above (optional)
 // ------------------------------------------------------------
 const products = [
+     {    id: 2003,
+        category: "sals",
+        name: "عرض ميكس وراك مندي او شيش",
+        description: "عرض ميكس وراك مندي او شيش",
+        price: 120,
+        image: "assets/products/عرض ميكس ورك معدل.png",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["mealSides","sauces"]
+    },
      {    id: 200045,
         category: "sals",
         name: "عرض 2ق فرايد تشيكن",
@@ -479,16 +489,6 @@ const products = [
     },
    
 
-     {    id: 2003,
-        category: "sals",
-        name: "عرض ميكس وراك مندي او شيش",
-        description: "عرض ميكس وراك مندي او شيش",
-        price: 110,
-        image: "assets/products/عرض ميكس وراك.jpg",
-        badge: "خصم خاص ",
-        available: false,
-        extraGroups: ["mealSides","sauces"]
-    },
      
      {     id: 2001,
         category: "sals",
