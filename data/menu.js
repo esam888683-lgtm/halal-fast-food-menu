@@ -112,10 +112,10 @@ const extraGroups = {
         title: "اختار بين",
         type: "single",
         options: [
-            { id: "susMeal", name: "وجبه", price: 160-160 },
-            { id: "susHalf", name: "نصف", price: 300-160 },
-            { id: "susHalfplus", name: "كيلو الا ربع", price: 450-160 },
-            { id: "susbig", name: "كيلو", price: 560-160 }
+            { id: "susMeal", name: "وجبه", price: 170-170 },
+            { id: "susHalf", name: "نصف", price: 310-170 },
+            { id: "susHalfplus", name: "كيلو الا ربع", price: 460-170 },
+            { id: "susbig", name: "كيلو", price: 570-170 }
         ]
     },
     manyMeatOptional: {
@@ -123,10 +123,10 @@ const extraGroups = {
         title: "اختار بين",
         type: "single",
         options: [
-            { id: "manyMeatMeal", name: "وجبه", price: 160-160 },
-            { id: "manyMeatHalf", name: "نصف", price: 300-160 },
-            { id: "manyMeatHalfplus", name: "كيلو الا ربع", price: 450-160 },
-            { id: "manyMeatbig", name: "كيلو", price: 560-160 }
+            { id: "manyMeatMeal", name: "وجبه", price: 170-170 },
+            { id: "manyMeatHalf", name: "نصف", price: 310-170 },
+            { id: "manyMeatHalfplus", name: "كيلو الا ربع", price: 460-170 },
+            { id: "manyMeatbig", name: "كيلو", price: 570-170 }
         ]
     },
     mohamerMeatOptional: {
@@ -134,10 +134,10 @@ const extraGroups = {
         title: "اختار بين",
         type: "single",
         options: [
-            { id: "mohamerMeatMeal", name: "وجبه", price: 170-170 },
-            { id: "mohamerMeatHalf", name: "نصف", price: 330-170 },
-            { id: "mohamerMeatHalfplus", name: "كيلو الا ربع", price: 490-170 },
-            { id: "mohamerMeatbig", name: "كيلو", price: 650-170 }
+            { id: "mohamerMeatMeal", name: "وجبه", price: 180-180 },
+            { id: "mohamerMeatHalf", name: "نصف", price: 340-180 },
+            { id: "mohamerMeatHalfplus", name: "كيلو الا ربع", price: 500-180},
+            { id: "mohamerMeatbig", name: "كيلو", price: 660-180 }
         ]
     },
     boftekMeatOptional: {
@@ -145,10 +145,10 @@ const extraGroups = {
         title: "اختار بين",
         type: "single",
         options: [
-            { id: "boftekMeatMeal", name: "وجبه", price: 165-165 },
-            { id: "boftekMeatHalf", name: "نصف", price: 320-165 },
-            { id: "boftekMeatHalfplus", name: "كيلو الا ربع", price: 470-165 },
-            { id: "boftekMeatbig", name: "كيلو", price: 630-165 }
+            { id: "boftekMeatMeal", name: "وجبه", price: 175-175 },
+            { id: "boftekMeatHalf", name: "نصف", price: 330-175 },
+            { id: "boftekMeatHalfplus", name: "كيلو الا ربع", price: 480-175 },
+            { id: "boftekMeatbig", name: "كيلو", price: 640-175 }
         ]
     },
     kebdaMeatOptional: {
@@ -156,10 +156,10 @@ const extraGroups = {
         title: "اختار بين",
         type: "single",
         options: [
-            { id: "boftekMeatMeal", name: "وجبه", price: 165-165 },
-            { id: "boftekMeatHalf", name: "نصف", price: 320-165 },
-            { id: "boftekMeatHalfplus", name: "كيلو الا ربع", price: 480-165 },
-            { id: "boftekMeatbig", name: "كيلو", price: 650-165 }
+            { id: "boftekMeatMeal", name: "وجبه", price: 175-175 },
+            { id: "boftekMeatHalf", name: "نصف", price: 330-175 },
+            { id: "boftekMeatHalfplus", name: "كيلو الا ربع", price: 490-175 },
+            { id: "boftekMeatbig", name: "كيلو", price: 660-175 }
         ]
     },
     mandychiknOptional: {
@@ -505,7 +505,7 @@ const products = [
         category: "skhn_wmndy",
         name: "لحم صوص",
         description: "لحم صوص",
-        price: 160,
+        price: 170,
         image: "assets/products/لحم صوص.jpg",
         badge: "الأكثر طلباً",
         available: true,
@@ -516,7 +516,7 @@ const products = [
         category: "skhn_wmndy",
         name: "لحم مندي",
         description: "لحم مندي",
-        price: 160,
+        price: 170,
         image: "assets/products/لحم مندي.jpg",
         badge: null,
         available: true,
@@ -527,7 +527,7 @@ const products = [
         category: "skhn_wmndy",
         name: "لحم محمر",
         description: "لحم محمر",
-        price: 170,
+        price: 180,
         image: "assets/products/لحم محمر.jpeg",
         badge: "الأكثر طلباً",
         available: true,
@@ -538,7 +538,7 @@ const products = [
         category: "skhn_wmndy",
         name: "بوفتيك",
         description: "بوفتيك",
-        price: 165,
+        price: 175,
         image: "assets/products/بوفتيك.jpg",
         badge: null,
         available: true,
@@ -549,7 +549,7 @@ const products = [
         category: "skhn_wmndy",
         name: "كبده محمره",
         description: "قرص لحم بقري 150 جرام + جبنة شيدر + خس وطماطم",
-        price: 165,
+        price: 175,
         image: "assets/products/كبده.jpg",
         badge: null,
         available: true,
