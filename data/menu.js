@@ -314,7 +314,7 @@ const products = [
         price: 120,
         image: "assets/products/عرض ميكس ورك معدل.png",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["mealSides","sauces"]
     },
      {    id: 200045,
@@ -390,7 +390,7 @@ const products = [
         price: 125,
         image: "assets/products/لحم بوفتيك عرض.jpg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["mealSides","sauces"]
     },
      
