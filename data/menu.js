@@ -307,6 +307,16 @@ const extraGroups = {
 // extraGroups: array of extraGroups keys above (optional)
 // ------------------------------------------------------------
 const products = [
+        {    id: 200345,
+        category: "sals",
+        name: "عرض فوز الاهلي",
+        description: "ميكس بانيه وكفته",
+        price: 120,
+        image: "assets/products/عرض الاهل.png",
+        badge: "خصم خاص ",
+        available: false,
+        extraGroups: ["mealSides","sauces"]
+    },
      {    id: 2003,
         category: "sals",
         name: "عرض ميكس وراك مندي او شيش",
