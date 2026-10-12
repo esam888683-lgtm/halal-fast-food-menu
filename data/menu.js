@@ -928,7 +928,7 @@ const products = [
         category: "sandwtshat",
         name: "كلاسيك تشيكن",
         description: "استريبس  مايونيز  خس  خيار  مخلل  طماطم  صوص جبنه ",
-        price: 105,
+        price: 95,
         image: "assets/products/كلاسيك تشيكن.jpg",
         badge: "الاكثر مبيعا",
         available: true,
