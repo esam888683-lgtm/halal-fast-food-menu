@@ -314,7 +314,7 @@ const products = [
         price: 120,
         image: "assets/products/عرض الاهل.png",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["mealSides","sauces"]
     },
      {    id: 2003,
