@@ -14,11 +14,11 @@
 // icon:  a single emoji shown next to the category name
 // ------------------------------------------------------------
 const categories = [
-     { id: "sals", name: "عروض نار",       icon: "🍗", order: 1 },
-     { id: "skhn_wmndy", name: "سخن ومندي",       icon: "🍗", order: 2 },
-    { id: "mshwyat",    name: "مشويات",   icon: "🥪", order: 3 },
-    { id: "frayd_tshykn", name: "فرايد تشيكن",      icon: "🍢", order: 4 },
-    { id: "sandwtshat",   name: "ساندوتشات",       icon: "🍛", order: 5 },
+    { id: "sandwtshat",   name: "ساندوتشات",       icon: "🍛", order: 1 },
+     { id: "sals", name: "عروض نار",       icon: "🍗", order: 2 },
+     { id: "skhn_wmndy", name: "سخن ومندي",       icon: "🍗", order: 3 },
+    { id: "mshwyat",    name: "مشويات",   icon: "🥪", order: 4 },
+    { id: "frayd_tshykn", name: "فرايد تشيكن",      icon: "🍢", order: 5 },
     { id: "crepe",         name: "كريبات",        icon: "🌯", order: 6 },
     { id: "sory",        name: "سوري",     icon: "🥤", order: 7 },
     { id: "extras",        name: "مقبلات",      icon: "🍟", order: 8 },
@@ -232,10 +232,10 @@ const extraGroups = {
         title: "اختار بين",
         type: "single",
         options: [
-            { id: "steackMeal", name: "وجبه", price: 170-170 },
-            { id: "steackHalf", name: "نصف", price: 330-170 },
-            { id: "steackHalfplus", name: "كيلو الا ربع", price: 490-170 },
-            { id: "steackbig", name: "كيلو", price: 650-170 }
+            { id: "steackMeal", name: "وجبه", price: 180-180 },
+            { id: "steackHalf", name: "نصف", price: 340-180 },
+            { id: "steackHalfplus", name: "كيلو الا ربع", price: 500-180 },
+            { id: "steackbig", name: "كيلو", price: 660-180 }
         ]
     },
     shishchiknOptional: {
@@ -713,7 +713,7 @@ const products = [
         category: "mshwyat",
         name: "لحم استيك",
         description: "لحم مشوي عالفحم",
-        price: 170,
+        price: 180,
         image: "assets/products/استيك.jpg",
         badge: null,
         available: true,
@@ -790,7 +790,7 @@ const products = [
         category: "frayd_tshykn",
         name: "استريبس 3ق",
         description: "استريبس ارز بطاطس   ثوميه  كاتشب  كايزر ",
-        price: 95,
+        price: 105,
         image: "assets/products/3ق استريبس.jpg",
         badge: null,
         available: true,
@@ -801,7 +801,7 @@ const products = [
         category: "frayd_tshykn",
         name: "استريبس 5ق",
         description: "استريبس ارز بطاطس  كولسلو  ثوميه  كاتشب  كايزر ",
-        price: 120,
+        price: 130,
         image: "assets/products/5ق استريبس.jpg",
         badge: null,
         available: true,
@@ -856,7 +856,7 @@ const products = [
         category: "frayd_tshykn",
         name: "استريبس 12ق",
         description: "استريبس ارز بطاطس  كولسلو  ثوميه  كاتشب  كايزر ",
-        price: 290,
+        price: 300,
         image: "assets/products/12ق استريبس.jpg",
         badge: null,
         available: true,
@@ -867,7 +867,7 @@ const products = [
         category: "frayd_tshykn",
         name: "استريبس 21ق",
         description: "استريبس ارز بطاطس  كولسلو  ثوميه  كاتشب  كايزر ",
-        price: 500,
+        price: 510,
         image: "assets/products/21ق استريبس.jpg",
         badge: null,
         available: true,
