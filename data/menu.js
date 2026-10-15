@@ -334,7 +334,7 @@ const products = [
         price: 100,
         image: "assets/products/عرض ورك بط.jpg",
         badge: "جديد",
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
         {    id: 200345,
@@ -354,7 +354,7 @@ const products = [
         price: 120,
         image: "assets/products/عرض ميكس ورك معدل.png",
         badge: "خصم خاص ",
-        available: false,
+        available: true,
         extraGroups: ["mealSides","sauces"]
     },
      {    id: 200045,
