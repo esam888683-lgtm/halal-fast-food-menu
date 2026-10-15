@@ -364,7 +364,7 @@ const products = [
         price: 100,
         image: "assets/products/عرض قطعتين فرايد.jpg",
         badge: "خصم خاص ",
-        available: false,
+        available: true,
         extraGroups: ["sauces"]
     },
      {    id: 2014,
