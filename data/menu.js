@@ -307,6 +307,36 @@ const extraGroups = {
 // extraGroups: array of extraGroups keys above (optional)
 // ------------------------------------------------------------
 const products = [
+    {    id: 21860,
+        category: "sals",
+        name: "عرض كريب شيش طاووق",
+        description: "كريب شيش طاووق مع بطاطس وبيبسي",
+        price: 100,
+        image: "assets/products/عرض كريب شيش.jpg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["sauces"]
+    },
+     {    id: 2002,
+        category: "sals",
+        name: "عرض بوفتيك",
+        description: "لحم بوفتيك",
+        price: 125,
+        image: "assets/products/لحم بوفتيك عرض.jpg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["mealSides","sauces"]
+    },
+     {    id: 20053,
+        category: "sals",
+        name: "عرض ورك بط",
+        description: "اليوم من الساعه 4 وحتي نفاذ الكميه",
+        price: 100,
+        image: "assets/products/عرض ورك بط.jpg",
+        badge: "جديد",
+        available: true,
+        extraGroups: ["sauces"]
+    },
         {    id: 200345,
         category: "sals",
         name: "عرض فوز الاهلي",
@@ -358,16 +388,6 @@ const products = [
         extraGroups: ["mealSides","sauces"]
     },
 
-     {    id: 20053,
-        category: "sals",
-        name: "عرض ورك بط",
-        description: "اليوم من الساعه 4 وحتي نفاذ الكميه",
-        price: 100,
-        image: "assets/products/عرض ورك بط.jpg",
-        badge: "جديد",
-        available: false,
-        extraGroups: ["sauces"]
-    },
      {    id: 20051,
         category: "sals",
         name: "عرض 2 حواوشي موتزاريلا وعادي",
@@ -393,16 +413,6 @@ const products = [
      
 
      
-     {    id: 2002,
-        category: "sals",
-        name: "عرض بوفتيك",
-        description: "لحم بوفتيك",
-        price: 125,
-        image: "assets/products/لحم بوفتيك عرض.jpg",
-        badge: "خصم خاص ",
-        available: false,
-        extraGroups: ["mealSides","sauces"]
-    },
      
        {    id: 2005,
         category: "sals",
