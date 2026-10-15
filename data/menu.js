@@ -334,7 +334,7 @@ const products = [
         price: 100,
         image: "assets/products/عرض ورك بط.jpg",
         badge: "جديد",
-        available: false,
+        available: true,
         extraGroups: ["sauces"]
     },
         {    id: 200345,
