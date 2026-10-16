@@ -314,7 +314,7 @@ const products = [
         price: 100,
         image: "assets/products/عرض كريب شيش.jpg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
      {    id: 2002,
@@ -324,7 +324,7 @@ const products = [
         price: 125,
         image: "assets/products/لحم بوفتيك عرض.jpg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["mealSides","sauces"]
     },
      {    id: 20053,
@@ -334,7 +334,7 @@ const products = [
         price: 100,
         image: "assets/products/عرض ورك بط.jpg",
         badge: "جديد",
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
         {    id: 200345,
