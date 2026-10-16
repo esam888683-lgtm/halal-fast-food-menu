@@ -354,7 +354,7 @@ const products = [
         price: 120,
         image: "assets/products/عرض ميكس ورك معدل.png",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["mealSides","sauces"]
     },
      {    id: 200045,
@@ -364,7 +364,7 @@ const products = [
         price: 100,
         image: "assets/products/عرض قطعتين فرايد.jpg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
      {    id: 2014,
