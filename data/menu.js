@@ -374,7 +374,7 @@ const products = [
         price: 100,
         image: "assets/products/كريب استريبس عرض.jpeg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
         {    id: 20050,
@@ -421,7 +421,7 @@ const products = [
         price: 80,
         image: "assets/products/فته مع بطاطس.jpg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
      
