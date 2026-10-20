@@ -307,6 +307,16 @@ const extraGroups = {
 // extraGroups: array of extraGroups keys above (optional)
 // ------------------------------------------------------------
 const products = [
+    {    id: 218604,
+        category: "sals",
+        name: "عرض طاجن باميه باللحم الضاني",
+        description: "باميه باللحم الضاني تصلح ما يفسده الاخرون",
+        price: 200,
+        image: "assets/products/باميه بالضاني.jpg",
+        badge: "خصم خاص ",
+        available: true,
+        extraGroups: ["sauces"]
+    },
     {    id: 21860,
         category: "sals",
         name: "عرض كريب شيش طاووق",
