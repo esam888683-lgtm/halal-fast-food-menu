@@ -421,7 +421,7 @@ const products = [
         price: 80,
         image: "assets/products/فته مع بطاطس.jpg",
         badge: "خصم خاص ",
-        available: false,
+        available: true,
         extraGroups: ["sauces"]
     },
      
