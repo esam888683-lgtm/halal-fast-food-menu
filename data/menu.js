@@ -314,7 +314,7 @@ const products = [
         price: 200,
         image: "assets/products/باميه بالضاني.jpg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
     {    id: 21860,
@@ -431,7 +431,7 @@ const products = [
         price: 80,
         image: "assets/products/فته مع بطاطس.jpg",
         badge: "خصم خاص ",
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
      
