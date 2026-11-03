@@ -923,7 +923,7 @@ const products = [
         price: 90,
         image: "assets/products/استريبس اطفال.jpg",
         badge: null,
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
     {
@@ -934,7 +934,7 @@ const products = [
         price: 90,
         image: "assets/products/بروست اطفال.jpg",
         badge: null,
-        available: true,
+        available: false,
         extraGroups: ["sauces"]
     },
 
