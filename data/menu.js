@@ -810,7 +810,7 @@ const products = [
         category: "frayd_tshykn",
         name: "استريبس 3ق",
         description: "استريبس ارز بطاطس   ثوميه  كاتشب  كايزر ",
-        price: 105,
+        price: 95,
         image: "assets/products/3ق استريبس.jpg",
         badge: null,
         available: true,
